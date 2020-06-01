@@ -6,9 +6,10 @@
 
 ```
 #!/bin/bash
-yum install git -y
+
+sudo yum install git -y
 git clone https://github.com/adarshgeorge/install_jenkins_in_docker.git
-cd userdata-jenkins
+cd cd install_jenkins_in_docker/
 chmod +x userdata.sh 
 ./userdata.sh
 ```
